@@ -143,7 +143,7 @@ const Signup = () => {
                 htmlFor="termsAndConditions"
                 className="text-sm font-light"
               >
-                I agree to Dutiful's{" "}
+                I agree to Dutiful&apos;s{" "}
                 <Link href="" className="text-[#a16ae8] underline">
                   terms and conditions
                 </Link>

@@ -17,7 +17,7 @@ const page = () => {
               <Link href="/auth/reset-password">Confirm OTP</Link>
             </button>
             <p className="text-[#a3b1bf] text-base font-normal text-center">
-              Didn't get a Code?{" "}
+              Didn&apos;t get a Code?{" "}
               <Link href="/auth/forgot-pass" className="text-[#a16ae8]">
                 Resend
               </Link>

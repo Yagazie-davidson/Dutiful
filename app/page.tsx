@@ -2,7 +2,7 @@ import Image from "next/image";
 import localFont from "next/font/local";
 import HeroImage from "@/public/image/Hero-image.png";
 import ReviewImage from "@/public/image/Review.png";
-import PhoneMockImage from "@/public/image/Phone-mock.png";
+// import PhoneMockImage from "@/public/image/Phone-mock.png";
 import Man1 from "@/public/image/Man1.png";
 import Woman1 from "@/public/image/woman1.png";
 import Woman2 from "@/public/image/woman2.png";
@@ -69,7 +69,7 @@ export default function Home() {
             <p className="font-normal text-base">
               Dutiful is more than just a business directory; it also enhances
               your web profile. The platform makes use of SEO techniques to
-              boost each listing's performance in the SERPs, providing any
+              boost each listing&apos;s performance in the SERPs, providing any
               business the chance to rank, regardless of how strong their
               current online presence is.
             </p>
@@ -78,9 +78,9 @@ export default function Home() {
             <Image alt="discover" src={MessageImage} width={40} height={40} />
             <h4 className="font-bold text-lg">Instant Chat</h4>
             <p className="font-normal text-base">
-              You'll be able to chat and send voice recordings with potential
-              and existing customers, including managing your captured leads
-              anytime, anywhere via the platform
+              You&apos;ll be able to chat and send voice recordings with
+              potential and existing customers, including managing your captured
+              leads anytime, anywhere via the platform
             </p>
           </div>
           <div className="bg-[#FFFFFF] text-[#464646] w-full max-w-[480px] rounded-[26px] px-[21px] pb-4 pt-[21px]">
@@ -89,7 +89,7 @@ export default function Home() {
             <p className="font-normal text-base">
               In addition to providing customers with access to information,
               offering customer quotations is very advantageous to the way you
-              conduct your business. On Dutiful, you'll be able to send and
+              conduct your business. On Dutiful, you&apos;ll be able to send and
               receive quotation from customers - an important step in lead
               management.
             </p>

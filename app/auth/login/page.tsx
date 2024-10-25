@@ -71,7 +71,7 @@ const page = () => {
               Login
             </button>
             <p className="text-[#a3b1bf] text-base font-normal text-center">
-              Don't have an account?{" "}
+              Don&apos;t have an account?{" "}
               <Link href="/auth/signup" className="text-[#a16ae8]">
                 Sign Up
               </Link>
